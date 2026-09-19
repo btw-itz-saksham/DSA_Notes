@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-// merge sort
+// merge sort   O(n log n)  , O(n) extra space
 // divide and conquer
 
 void merge(int arr[], int start , int mid , int end){        //O(n)
