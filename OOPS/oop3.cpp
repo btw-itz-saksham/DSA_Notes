@@ -34,7 +34,14 @@ class Car{
         this->color = color;
     }
 
-// Since we have 2 constructors with different parameters, this is called constructor overloading.
+    //Custom copy constructor
+    Car (Car &original){
+        cout<<"Copying original to new"<<endl;
+        name=original.name;
+        color=original.color;
+    }
+
+// Since we have 3 constructors with different parameters, this is called constructor overloading.
 
 
     void start(){
@@ -63,6 +70,11 @@ int main(){
     c1.start();
     cout<<"The name of car is :"<<c1.getname()<<endl;
     cout<<"The color of the car is :"<<c1.getcolor()<<endl;
+
+
+    Car c2(c1);             //copy of car c1      // c++ called an copy constructor by default
+    cout<<c2.getname()<<endl;
+    cout<<c2.getcolor()<<endl;
     
 
     return 0;

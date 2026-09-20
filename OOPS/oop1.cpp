@@ -4,7 +4,7 @@ using namespace std;
 
 // Access modifiers
 // public- to access the methords of a class from anywhere it should be 
-// private- for only inside class is  , also default
+// private- for only inside class is  , also default and in friend class function
 // protected- for inside class and derived class 
 
 class Student {
