@@ -3,7 +3,7 @@ using namespace std;
 
 //Reverse an array using 2 pointer approach ; O(1) space complixicity and O(n) space complixicity.
     
-void printarray(int arr[] , int n){
+void printarray(int *arr , int n){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<",";
     }
