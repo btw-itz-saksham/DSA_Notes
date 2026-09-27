@@ -5,11 +5,17 @@ using namespace std;
 
 
 int main(){
-    int arr[3][4] = {
-        {1,2,3,4},
-        {5,6,7,8},
-        {9,10,11,12}
+//        row  column          
+    int arr[3][3] = {
+        {100,100,100},
+        {50,60,70},
+        {90,50,67}
     };
+
+    // accessing elements of 2-D array
+    cout<<arr[0][0]<<endl; 
+    cout<<arr[1][2]<<endl; 
+    cout<<arr[2][2]<<endl; 
 
     return 0;
 }
