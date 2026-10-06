@@ -15,7 +15,6 @@ int main(){
     // accessing elements of 2-D array
     cout<<arr[0][0]<<endl; 
     cout<<arr[1][2]<<endl; 
-    cout<<arr[2][2]<<endl; 
-
+    cout<<arr[2][2]<<endl;
     return 0;
 }

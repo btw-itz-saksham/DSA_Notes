@@ -4,7 +4,7 @@ using namespace std;
 //Diagonal Sum of 2d array
 //O(n2)
 
-int Diagnolsum(int matrix[][3],int row , int col){
+int Diagnolsum(int matrix[][4],int row , int col){
 
     int sum =0;
 
@@ -38,6 +38,6 @@ int main(){
         {7,8,9},
     };
 
-    // Diagnolsum(matrix,4,4);
-    Diagnolsum(matrix2,3,3);
+    Diagnolsum(matrix,4,4);
+    // Diagnolsum(matrix2,3,3);
 }
