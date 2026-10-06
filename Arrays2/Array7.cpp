@@ -37,7 +37,7 @@ int main() {
         {32,33,39,50}
     };
 
-    pair<int,int> ans = search(matrix, 4, 4, 37);
+    pair<int,int> ans = search(matrix, 4, 4, 39);
 
     cout << ans.first << " " << ans.second;
 
