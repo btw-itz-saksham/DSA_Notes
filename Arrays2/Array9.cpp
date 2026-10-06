@@ -3,7 +3,7 @@ using namespace std;
 
 void transpose(int matrix[][4],int row,int col){
     for(int i=0;i<row;i++){
-        for(int j=i;j<col;j++){
+        for(int j=i+1;j<col;j++){
             swap(matrix[i][j],matrix[j][i]);
         }
     }
