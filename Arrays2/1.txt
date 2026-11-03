@@ -1,0 +1,4 @@
+//To rorate a 2d array by 
+90 - transpose +row reverse
+180- roe reverse + col reverse
+270- transpose + col reverse
