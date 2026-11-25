@@ -164,13 +164,13 @@ class List{
 
     int helper(Node* temp,int key){            // helper function
 
-        if(temp->next == NULL){
+        if(temp->next == NULL){              //ll is empty
             return -1;
         }
-        if(temp->data == key){
+        if(temp->data == key){               //if we found the key
             return 0;
         }
-        int idx = helper(temp->next,key);
+        int idx = helper(temp->next,key); 
         if(idx == -1){
             return -1;
         }
